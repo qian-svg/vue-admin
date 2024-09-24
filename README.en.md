@@ -2,19 +2,16 @@
 
 # Introduction
 
-> vue-admin-simple is a simple Vue admin management system with front-end and back-end separation architecture. It's developed using Vue2 + Element UI, leveraging the scaffolding technology from flower pants/vue-admin-template. Element UI form and table components are optimized and encapsulated to support custom form configurations and data operations. Only a few lines of code are needed to develop pages that implement CRUD operations, greatly reducing redundant workloads.
+> vue-admin is a simple Vue admin management system with front-end and back-end separation architecture. It's developed using Vue2 + Element UI, leveraging the scaffolding technology from flower pants/vue-admin-template. Element UI form and table components are optimized and encapsulated to support custom form configurations and data operations. Only a few lines of code are needed to develop pages that implement CRUD operations, greatly reducing redundant workloads.
 
-
-## Demo
-[Online Preview](http://www.easytouser.com/demo/vue-admin)
 
 ## Quick Start
 
 ```bash
 # Clone project
-git clone https://gitee.com/maozilong/vue-admin-simple.git
+git clone https://github.com/qian-svg/vue-admin.git
 # Go to the project directory
-cd vue-admin-simple
+cd vue-admin
 # Install dependencies
 npm install
 # Start server
@@ -368,13 +365,6 @@ del()
 
 ```
 
-# Other
-> There are additional components included with this package like DragDialog, FormModal, MDropdown and MUpload
-
-> along with a localDb module that can emulate local database operations based on axios and mocking data. see:utils/mockDb/localDb.js
-
-> This code has been built using the Element UI library!
-
 # Release
 
 ```bash
@@ -384,6 +374,4 @@ npm run build:stage
 # Build for production environment
 npm run build:prod
 ```
-
-For more information, you can refer to the [vue-admin-template documentation](https://panjiachen.github.io/vue-element-admin-site/zh/)
 
